@@ -1,10 +1,10 @@
-# h1**Off-Platform Project: RESTful Restaurants**
-##**Build an API to store and retrieve information about your favorite restaurants!**
+# **Off-Platform Project: RESTful Restaurants**
+## **Build an API to store and retrieve information about your favorite restaurants!**
 
-###**Introduction**
+### **Introduction**
 In this off-platform project, you will be building an API to connect the front-end and back-end of a restaurant review site. This site will allow its users to view a list of saved restaurants, add to that list, star their favorite restaurants, and leave comments about these places. We’ve got you started by building the front-end and setting up some API routes for you. You’ll focus on adding the remaining routes needed to handle starred restaurants and comments.
 
-![My Image](C:\Users\diogo\OneDrive\Documents\Coding\restful-restaurants)
+![Alt text]([/posts/path/to/img.jpg "Optional title"](https://static-assets.codecademy.com/Courses/Connecting-FE-to-BE/restful-restaurants.gif))
 
 In this project, you will:
 
@@ -23,7 +23,7 @@ We’ve also included a solution-code folder to help guide you if you get stuck.
 
 You will be doing this project outside of the Codecademy platform, on your computer. You will be using a local text editor (we suggest VSCode).
 
-##**Part 1 - Setting up the Project**
+## **Part 1 - Setting up the Project**
 Let’s get started by installing the necessary packages. We will set up the back-end first. Navigate to the backend folder and install the dependencies.
 
 You can navigate to the **backend** folder by using the `cd` command like below:
@@ -50,7 +50,7 @@ Since the back-end is running on port 3000, you will see the following command l
 Type Y to run the front-end server on a different port. If your site does not automatically open in the browser, navigate to it using the URL provided in your terminal.
 
 
-##**Part 2 - Planning the API Endpoints**
+## **Part 2 - Planning the API Endpoints**
 You will be using the Express library to create the following REST endpoints:
 
 -Get a specific starred restaurant
@@ -73,7 +73,7 @@ We will be working with two databases in this project. Both are structured as an
 
 Before you write any code, consider making a timeline for yourself. Setting firm boundaries and deadlines will keep you on track and prevent scope creep.
 
-##**Part 3 - Creating Endpoints**
+## **Part 3 - Creating Endpoints**
 Let’s get started with building the endpoints to complete our API. You will be writing all of your code inside the starred restaurants router in backend/routes/starredRestaurants.js.
 
 Get a specific starred restaurant
@@ -92,7 +92,7 @@ Update your comment of a starred restaurant
 Finally, scroll down to the comment that reads, “Feature 10: Updating your comment of a starred restaurant.” Here, create an endpoint to add or edit a comment for a starred restaurant.
 
 
-##**Part 4 - Deploying Locally**
+## **Part 4 - Deploying Locally**
 As you build, test your code in your browser to make sure things are working as you expect. You can start your project by running npm start inside of your front-end and back-end directories. Remember that you’ll need to start your back-end server first for the app to work correctly.
 
 We are using nodemon to run the back-end server. nodemon is a Node package that watches our files and automatically restarts the server each time we save a change. Without it, we’d need to restart the server each time we made a change to see those changes take effect.
