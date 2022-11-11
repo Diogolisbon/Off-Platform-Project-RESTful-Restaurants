@@ -1,4 +1,4 @@
-#**Off-Platform Project: RESTful Restaurants**
+# h1**Off-Platform Project: RESTful Restaurants**
 ##**Build an API to store and retrieve information about your favorite restaurants!**
 
 ###**Introduction**
